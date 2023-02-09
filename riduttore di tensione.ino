@@ -16,7 +16,7 @@ void loop()
 void setPwmFrequency(int pin, int divisor) //funzione per modificare la frequenza del PWM
 {
   byte mode;
-  if (pin == 5 || pin == 6 || pin == 9 || pin == 10) //se il pin è uno di questi
+  if (pin == 5 || pin == 6 || pin == 9 || pin == 10) //se il pin è uno dei seguenti
   {
     switch (divisor) //in base al divisore scelto viene dato un valore esadecimale a "mode"
     {
